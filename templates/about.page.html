@@ -1,0 +1,11 @@
+{{template "base"}} {{define "content"}}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p>This is the "hello GO" about page</p>
+
+      <p>This came from the about handler: {{index .StringMap "test"}}</p>
+    </div>
+  </div>
+</div>
+{{end}}
